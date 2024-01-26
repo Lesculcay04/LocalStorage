@@ -36,3 +36,100 @@
     transform: rotate(360deg);
   }
 }
+.color-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px; /* Ajusta la altura según sea necesario */
+}
+
+.color {
+  width: 250px; /* Ajusta el ancho según sea necesario */
+  height: 250px; /* Ajusta la altura según sea necesario */
+  margin: 10px; /* Ajusta el margen según sea necesario */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 250px;
+  height: 150px;
+  margin: 5px
+}
+
+.blue {
+  background-color: blue;
+  width: 180px;
+  height: 100px;
+  margin: 5px;
+}
+
+.red {
+  background-color: red;
+  width: 130px;
+  height: 65px;
+  margin: 5px;
+  font-size: 11px;
+}
+
+.emoji-button {
+  background-color: #4CAF50; /* Color de fondo verde */
+  color: white; /* Color del texto blanco */
+  padding: 10px 15px; /* Espaciado interno del botón */
+  font-size: 16px; /* Tamaño del texto */
+  margin-right: 10px; /* Margen derecho entre botones */
+  cursor: pointer; /* Cursor de estilo de puntero */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.delete-button {
+  background-color: #f44336; /* Color de fondo rojo para el botón de eliminación */
+}
+
+.character-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #4caf50, #2196f3); /* Colores de fondo en degradado */
+}
+
+.character-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Limita el ancho máximo del formulario */
+  margin: 0 auto; /* Centra el formulario horizontalmente */
+}
+
+.character-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family:fantasy;
+}
+
+.character-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.character-form button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
